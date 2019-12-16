@@ -4,7 +4,7 @@ require 'prime'
 def prime?(num)
  
  Prime.each(num) do |prime|
-   if prime == Prime([prime]) 
+   if prime == Prime(prime) 
      true
    else 
      false
@@ -16,5 +16,6 @@ end
   
 # (2..(num - 1)).none? do |n|
 #   num % n == 0
+  
   
 #   end
