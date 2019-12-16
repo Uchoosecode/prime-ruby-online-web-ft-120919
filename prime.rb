@@ -6,7 +6,8 @@ def prime?(num)
  Prime.each(num) do |prime|
    if prime == true 
      true
-  
+   else 
+     false
    end
    
  end
