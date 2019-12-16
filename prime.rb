@@ -4,7 +4,10 @@ require 'prime'
 def prime?(num)
  
 (2..(num - 1)).none? do |n|
-  yield num % n == 0
+   num % n == 0
+   yield if num == true 
+   true 
+ end
    
   end
  
