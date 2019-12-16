@@ -4,9 +4,9 @@ require 'prime'
 def prime?(num)
  
  Prime.each(num) do |prime|
-   if prime == true 
+   if prime == Prime[prime] 
      true
-   else prime == false
+   else 
      false
    end
    
