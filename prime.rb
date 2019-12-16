@@ -7,10 +7,6 @@ def prime?(num)
   yield num % n == 0
    
   end
-  if true
-    true 
-  else
-    false 
-  end
+ 
 end
   
