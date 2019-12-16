@@ -3,14 +3,6 @@ require 'prime'
 
 def prime?(num)
  
- Prime.each(num) do |prime|
-   if prime == Prime(prime) 
-     true
-   else 
-     false
-   end
-   
- end
  
 end
   
